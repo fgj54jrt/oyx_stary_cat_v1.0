@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.amap.api.navi.AMapNaviView
+        android:id="@+id/customnavimap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/id_layout_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="12dp"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_layout_n"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/img_north"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white"
+                android:adjustViewBounds="true"
+                android:src="@drawable/north_map"
+                 />
+            
+        </LinearLayout>
+    </com.amap.api.navi.AMapNaviView>
+
+</LinearLayout>

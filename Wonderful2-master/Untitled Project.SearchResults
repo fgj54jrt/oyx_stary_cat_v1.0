@@ -1,0 +1,545 @@
+---- drawable Matches (546 in 137 files) ----
+ActionBar.java (src\com\markupartist\android\widget):import android.graphics.drawable.Drawable;
+ActionBar.java (src\com\markupartist\android\widget):     * @param resId The drawable resource id
+ActionBar.java (src\com\markupartist\android\widget)://        mBackIndicator.setBackgroundResource(R.drawable.actionbar_back_indicator);
+ActionBar.java (src\com\markupartist\android\widget):        mBackIndicator.setImageResource(show?R.drawable.back_indicator:android.R.color.transparent);
+ActionBar.java (src\com\markupartist\android\widget):	public void setNavigationDrawerImage(Drawable drawable) {
+ActionBar.java (src\com\markupartist\android\widget):        mBackIndicator.setBackgroundDrawable(drawable);
+ActionBar.java (src\com\markupartist\android\widget):        public AbstractAction(int drawable) {
+ActionBar.java (src\com\markupartist\android\widget):            mDrawable = drawable;
+ActionBar.java (src\com\markupartist\android\widget):        public IntentAction(Context context, Intent intent, int drawable) {
+ActionBar.java (src\com\markupartist\android\widget):            super(drawable);
+ActionBar.java (src\com\markupartist\android\widget):            super(R.drawable.actionbar_search);
+Actionbar.xml (res\layout):            android:background="@drawable/actionbar_btn"
+Actionbar.xml (res\layout):            android:background="@drawable/actionbar_btn"
+Actionbar_btn.xml (res\drawable):        android:drawable="@drawable/actionbar_btn_normal"
+Actionbar_btn.xml (res\drawable):        android:drawable="@drawable/actionbar_btn_pressed"
+Actionbar_btn.xml (res\drawable):        android:drawable="@drawable/actionbar_btn_pressed"
+Actionbar_btn.xml (res\drawable):        android:drawable="@drawable/actionbar_btn_pressed"
+Actionbar_btn.xml (res\drawable):        android:drawable="@drawable/actionbar_btn_pressed"
+Actionbar_item.xml (res\layout):    android:background="@drawable/actionbar_btn"
+Activated_background_holo_light.xml (res\drawable):    <item android:state_activated="true" android:drawable="@drawable/list_activated_holo" />
+Activated_background_holo_light.xml (res\drawable):    <item android:drawable="@android:color/transparent" />
+ActivityUtil.java (src\com\xgr\wonderful\utils):        ShortcutIconResource resource=Intent.ShortcutIconResource.fromContext(context, R.drawable.ic_launcher);
+Activity_base_home.xml (res\layout):	    android:background="@drawable/qq_background" >
+Activity_comment.xml (res\layout):	    android:textColor="@drawable/selector_load_more"
+Activity_comment.xml (res\layout):	    android:background="@drawable/bg_comment_comment"
+Activity_comment.xml (res\layout):        android:background="@drawable/selector_edittext_account"
+Activity_comment.xml (res\layout):        android:background="@drawable/selector_logout"/>
+Activity_edit.xml (res\layout):        android:background="@drawable/selector_edittext"
+Activity_edit.xml (res\layout):        android:background="@drawable/market_sng_icon_bg" >
+Activity_edit.xml (res\layout):                android:background="@drawable/navigationbar_check_in"
+Activity_edit.xml (res\layout):        android:background="@drawable/bg_pic_edit"
+Activity_edit.xml (res\layout):            android:background="@drawable/selector_edit_pic"
+Activity_edit.xml (res\layout):                android:background="@drawable/open_picture"
+Activity_edit.xml (res\layout):            android:background="@drawable/selector_edit_pic"
+Activity_edit.xml (res\layout):                android:background="@drawable/take_picture"
+Activity_edit.xml (res\layout):        android:background="@drawable/selector_logout"
+Activity_fav.xml (res\layout):	        android:background="@drawable/qq_background" >
+Activity_home.xml (res\layout):	        android:background="@drawable/qq_background" >
+Activity_navicustom.xml (res\layout):                android:background="@drawable/white"
+Activity_navicustom.xml (res\layout):                android:src="@drawable/north_map"
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navisetting.xml (res\layout):        android:background="@drawable/whiteborder" >
+Activity_navistart.xml (res\layout):                    android:src="@drawable/downarrow" />
+Activity_navistart.xml (res\layout):                    android:src="@drawable/downarrow" />
+Activity_navistart.xml (res\layout):                    android:src="@drawable/downarrow" />
+Activity_navistart.xml (res\layout):                    android:src="@drawable/downarrow" />
+Activity_register.xml (res\layout):        android:background="@drawable/bg_login_tab"
+Activity_register.xml (res\layout):        android:background="@drawable/selector_edittext_account"
+Activity_register.xml (res\layout):        android:drawableLeft="@drawable/user_account"
+Activity_register.xml (res\layout):        android:drawableRight="@drawable/user_delete"
+Activity_register.xml (res\layout):        android:background="@drawable/selector_edittext_account"
+Activity_register.xml (res\layout):        android:drawableLeft="@drawable/user_password"
+Activity_register.xml (res\layout):        android:drawableRight="@drawable/user_delete"
+Activity_register.xml (res\layout):        android:background="@drawable/selector_edittext_account"
+Activity_register.xml (res\layout):        android:drawableLeft="@drawable/user_name"
+Activity_register.xml (res\layout):        android:drawableRight="@drawable/user_delete"
+Activity_register.xml (res\layout):        android:background="@drawable/selector_logout"
+Activity_reside.xml (res\layout):        android:src="@drawable/stars" />
+Activity_reside.xml (res\layout):            android:src="@drawable/balloon" />
+Activity_route.xml (res\layout):        android:background="@drawable/border" >
+Activity_route.xml (res\layout):            android:src="@drawable/downarrow" />
+Activity_splash.xml (res\layout):	    android:drawableTop="@drawable/ic_launcher"
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):				MyApplication.getInstance().getOptions(R.drawable.user_icon_default_main),
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):					MyApplication.getInstance().getOptions(R.drawable.bg_pic_loading),
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):			viewHolder.favMark.setImageResource(R.drawable.ic_action_fav_choose);
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):			viewHolder.favMark.setImageResource(R.drawable.ic_action_fav_normal);
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_choose);
+AIContentAdapter.java (src\com\xgr\wonderful\adapter):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_normal);
+Ai_item.xml (res\layout):        android:src="@drawable/user_icon_default_main"
+Ai_item.xml (res\layout):	    android:src="@drawable/ic_action_fav_normal"
+Ai_item.xml (res\layout):	    android:src="@drawable/bg_pic_loading"
+Ai_item.xml (res\layout):	    android:drawableLeft="@drawable/ic_action_comment"
+Ai_item.xml (res\layout):	    android:drawableLeft="@drawable/ic_action_share"
+Ai_item.xml (res\layout):	    android:drawableLeft="@drawable/action_hate"
+Ai_item.xml (res\layout):	    android:drawableLeft="@drawable/ic_action_love"
+AMapMainActivity.java (src\com\amap):		btn_getLocation.setBackgroundResource(R.drawable.ic_location_press);
+AMapMainActivity.java (src\com\amap):				btn_getLocation.setBackgroundResource(R.drawable.ic_location);
+AMapMainActivity.java (src\com\amap):				btn_getLocation.setBackgroundResource(R.drawable.ic_location);
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point1));
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point2));
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point3));
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point4));
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point5));
+AMapMainActivity.java (src\com\amap):		giflist.add(BitmapDescriptorFactory.fromResource(R.drawable.point6));
+AMapMainActivity.java (src\com\amap):						.fromResource(R.drawable.location_marker)).anchor(
+AMapMainActivity.java (src\com\amap):				btn_getLocation.setBackgroundResource(R.drawable.ic_location);
+AMapMainActivity.java (src\com\amap):					btn_traffic.setBackgroundResource(R.drawable.lukuang);
+AMapMainActivity.java (src\com\amap):					btn_traffic.setBackgroundResource(R.drawable.lukuang_press);
+AMapMainActivity.java (src\com\amap):			btn_getLocation.setBackgroundResource(R.drawable.ic_location_press);
+Amap_main_activity.xml (res\layout):                android:background="@drawable/lukuang" />
+Amap_main_activity.xml (res\layout):                android:background="@drawable/ic_location" />
+Amap_main_activity.xml (res\layout):                android:background="@drawable/btn_zoom_in" />
+Amap_main_activity.xml (res\layout):                android:background="@drawable/btn_zoom_out" />
+Amap_main_activity.xml (res\layout):                        android:background="@drawable/btn_stop_driving_bg"
+Amap_main_activity.xml (res\layout):                            android:src="@drawable/ic_report" />
+Amap_main_activity.xml (res\layout):                                android:src="@drawable/coin_s" />
+Amap_main_activity.xml (res\layout):                        android:background="@drawable/btn_stop_driving_bg"
+Amap_main_activity.xml (res\layout):                            android:src="@drawable/ic_stop_driving" />
+Amap_main_search.xml (res\layout):    android:background="@drawable/bg_logout_normal"
+Amap_main_search.xml (res\layout):        android:src="@drawable/cyx_back"/>
+Amap_main_search.xml (res\layout):        android:background="@drawable/idle_title_search_input_bg"
+Amap_main_search.xml (res\layout):            android:src="@drawable/fangdajing" />
+Amap_main_search.xml (res\layout):            android:background="@drawable/btn_bg_white"
+Amap_main_search.xml (res\layout):            android:src="@drawable/ic_action_edit"
+Amap_main_search.xml (res\layout):                android:src="@drawable/cyx_list" /> -->
+AndroidManifest.xml:        android:icon="@drawable/ic_launcher"
+AndroidManifest.xml (bin):        android:icon="@drawable/ic_launcher"
+Attrs_pull2refresh.xml (res\values):        <!-- A drawable to use as the background of the Refreshable View -->
+Attrs_pull2refresh.xml (res\values):        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+BaseHomeActivity.java (src\com\xgr\wonderful\ui\base):				return R.drawable.logo;
+Btn_bg_white.xml (res\drawable):    <item android:drawable="@drawable/bt_bg_pressed_white" android:state_pressed="true"/>
+Btn_bg_white.xml (res\drawable):    <item android:drawable="@drawable/bt_bg_pressed_white" android:state_selected="true"/>
+Btn_bg_white.xml (res\drawable):    <item android:drawable="@drawable/bt_bg_pressed_white" android:state_focused="true"/>
+Btn_bg_white.xml (res\drawable):    <item android:drawable="@drawable/bt_bg_normal_white"/>
+Btn_collect_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_collect_down" android:state_pressed="true"/>
+Btn_collect_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_collect_down" android:state_selected="true"/>
+Btn_collect_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_collect_down" android:state_focused="true"/>
+Btn_collect_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_collect_up"/>
+Btn_nav_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_nav_down" android:state_pressed="true"/>
+Btn_nav_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_nav_down" android:state_selected="true"/>
+Btn_nav_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_nav_down" android:state_focused="true"/>
+Btn_nav_bg.xml (res\drawable):    <item android:drawable="@drawable/cyx_nav_up"/>
+Btn_stop_driving_bg.xml (res\drawable):    <item android:drawable="@color/light_black" android:state_pressed="true"/>
+Btn_stop_driving_bg.xml (res\drawable):    <item android:drawable="@color/light_black" android:state_selected="true"/>
+Btn_stop_driving_bg.xml (res\drawable):    <item android:drawable="@color/light_black" android:state_focused="true"/>
+Btn_stop_driving_bg.xml (res\drawable):    <item android:drawable="@color/dark_black"/>
+Btn_white_normal.xml (res\drawable):    <item android:drawable="@drawable/common_title_btn_disable" android:state_pressed="true"/>
+Btn_white_normal.xml (res\drawable):    <item android:drawable="@drawable/common_title_btn_disable" android:state_enabled="true" android:state_checked="true" />
+Btn_white_normal.xml (res\drawable):    <item android:drawable="@drawable/common_title_btn_white_normal" android:state_focused="true" />
+Btn_white_normal.xml (res\drawable):    <item android:drawable="@drawable/common_title_btn_white_normal"/>
+Btn_zoom_in.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomin" android:state_pressed="true"/>
+Btn_zoom_in.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomin" android:state_enabled="true" android:state_checked="true" />
+Btn_zoom_in.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomin" android:state_focused="true" />
+Btn_zoom_in.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomin_press"/>
+Btn_zoom_out.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomout" android:state_pressed="true"/>
+Btn_zoom_out.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomout" android:state_enabled="true" android:state_checked="true" />
+Btn_zoom_out.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomout" android:state_focused="true" />
+Btn_zoom_out.xml (res\drawable):    <item android:drawable="@drawable/ic_zoomout_press"/>
+Center_frame.xml (res\layout):            android:src="@drawable/topbar_menu_left"
+Center_frame.xml (res\layout):            android:src="@drawable/ic_action_edit"
+Center_frame.xml (res\layout):        android:background="@drawable/table_item_bottom_normal"
+Center_frame.xml (res\layout):            android:drawableTop="@drawable/home_tab_main_selector"
+Center_frame.xml (res\layout):            android:drawableTop="@drawable/home_tab_message_selector" 
+Center_frame.xml (res\layout):            android:drawableTop="@drawable/home_tab_add_selector"
+Center_frame.xml (res\layout):            android:background="@drawable/home_tab_add_background" />
+Center_frame.xml (res\layout):            android:drawableTop="@drawable/home_tab_find_selector" 
+Center_frame.xml (res\layout):            android:drawableTop="@drawable/home_tab_personal_selector" 
+Change_sign.xml (res\layout):	    android:background="@drawable/bg_comment_comment"
+Change_sign.xml (res\layout):        android:background="@drawable/selector_edittext_account"
+Change_sign.xml (res\layout):        android:background="@drawable/selector_logout"/>
+Colors.xml (res\values):    <drawable name="bg_ic_navi_normal">#FFFFFF</drawable>
+Colors.xml (res\values):    <drawable name="bg_ic_navi_pressed">#EEEEEE</drawable>
+CommentActivity.java (src\com\xgr\wonderful\ui):				return R.drawable.logo;
+CommentActivity.java (src\com\xgr\wonderful\ui):					MyApplication.getInstance().getOptions(R.drawable.bg_pic_loading),
+CommentActivity.java (src\com\xgr\wonderful\ui):			myFav.setImageResource(R.drawable.ic_action_fav_choose);
+CommentActivity.java (src\com\xgr\wonderful\ui):			myFav.setImageResource(R.drawable.ic_action_fav_normal);
+CommentActivity.java (src\com\xgr\wonderful\ui):					MyApplication.getInstance().getOptions(R.drawable.content_image_default),
+CommentActivity.java (src\com\xgr\wonderful\ui):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_choose);
+CommentActivity.java (src\com\xgr\wonderful\ui):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_normal);
+Comment_item.xml (res\layout):			android:background="@drawable/bg_comment_floor"
+CustomViewAbove.java (src\com\jeremyfeinstein\slidingmenu\lib):		// Draw the margin drawable if needed.
+CustomViewBehind.java (src\com\jeremyfeinstein\slidingmenu\lib):import android.graphics.drawable.Drawable;
+Cyx_collect_list_item.xml (res\layout):                android:src="@drawable/cyx_ic_collect" />
+Cyx_collect_list_item.xml (res\layout):            android:background="@drawable/cyx_deleted_bg"
+Cyx_dialog.xml (res\layout):    android:background="@drawable/bt_bg_normal_white" 
+Cyx_main_search.xml (res\layout):    android:background="@drawable/bg_logout_normal"
+Cyx_main_search.xml (res\layout):        android:src="@drawable/cyx_back"
+Cyx_main_search.xml (res\layout):        android:background="@drawable/idle_title_search_input_bg"
+Cyx_main_search.xml (res\layout):            android:src="@drawable/fangdajing" />
+Cyx_main_search.xml (res\layout):            android:background="@drawable/btn_bg_white"
+Cyx_main_search.xml (res\layout):                android:src="@drawable/cyx_list" /> -->
+cyx_NaviSearchActivity_gaode.java (src\com\amap):				collectHolder.imageView.setImageResource(R.drawable.cyx_ic_collect);
+cyx_NaviSearchActivity_gaode.java (src\com\amap):				historyHolder.imageView.setImageResource(R.drawable.search_history_associate_icon);
+cyx_NaviSearchActivity_gaode.java (src\com\amap):			holder.imageView.setImageResource(R.drawable.cyx_ic_uncollect);
+Cyx_navi_settings.xml (res\layout):                android:background="@drawable/cyx_searchlist_bg"
+Cyx_poi_search_detial.xml (res\layout):    android:background="@drawable/idle_title_search_input_bg"
+Cyx_poi_search_detial.xml (res\layout):                android:src="@drawable/ic_jiantou_left" />
+Cyx_poi_search_detial.xml (res\layout):                android:src="@drawable/ic_jiantou_right" />
+Cyx_poi_search_detial.xml (res\layout):            android:background="@drawable/btn_collect_bg"
+Cyx_poi_search_detial.xml (res\layout):                android:src="@drawable/cyx_ic_collect" />
+Cyx_poi_search_detial.xml (res\layout):            android:background="@drawable/btn_nav_bg"
+Cyx_poi_search_detial.xml (res\layout):                android:src="@drawable/ic_fold_line" />
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):import android.graphics.drawable.BitmapDrawable;
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):				.fromResource(R.drawable.location_marker));// R.drawable.gaode_location_marker));//
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):							.setBackgroundResource(R.drawable.ic_location);
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):					btn_traffic.setBackgroundResource(R.drawable.lukuang);
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):							.setBackgroundResource((R.drawable.lukuang_press));
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):						R.drawable.cyx_ic_collect));
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):						R.drawable.cyx_ic_uncollect));
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):			btnZoomin.setBackgroundResource(R.drawable.ic_zoomin);
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):			btnZoomin.setBackgroundResource(R.drawable.btn_zoom_in);
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):			btnZoomout.setBackgroundResource(R.drawable.ic_zoomout);
+cyx_SearchResultMapActivity_gaode.java (src\com\amap):			btnZoomout.setBackgroundResource(R.drawable.btn_zoom_out);
+Cyx_searchresult_bottom.xml (res\layout):			                         android:src="@drawable/ic_place_icon"
+Cyx_search_layout.xml (res\layout):            android:background="@drawable/cyx_searchlist_bg"
+Cyx_search_layout.xml (res\layout):            android:background="@drawable/cyx_searchlist_bg"
+Cyx_search_list_item.xml (res\layout):            android:src="@drawable/ic_fangdajing_search" />
+Cyx_search_result_gaode_map_layout.xml (res\layout):                android:background="@drawable/lukuang" />
+Cyx_search_result_gaode_map_layout.xml (res\layout):                android:background="@drawable/ic_location" />
+Cyx_search_result_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_zoom_in" />
+Cyx_search_result_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_zoom_out" />
+Cyx_title.xml (res\layout):    android:background="@drawable/bg_logout_normal" >
+Cyx_title.xml (res\layout):        android:src="@drawable/btn_title_back_bg" /> -->
+Cyx_title.xml (res\layout):        android:src="@drawable/cyx_back"
+Cyx_title.xml (res\layout):            android:src="@drawable/cyx_vip"
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):import android.graphics.drawable.BitmapDrawable;
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):import android.graphics.drawable.Drawable;
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):				.fromResource(R.drawable.location_marker));// R.drawable.gaode_location_marker));//
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):					btn_traffic.setBackgroundResource(R.drawable.lukuang);
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):					btn_traffic.setBackgroundResource((R.drawable.lukuang_press));
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):					R.drawable.cyx_ic_collect));
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):					R.drawable.cyx_ic_uncollect));
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):				.icon(BitmapDescriptorFactory.fromResource(R.drawable.collect_position)).perspective(true)
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):			btnZoomin.setBackgroundResource(R.drawable.ic_zoomin);
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):			btnZoomin.setBackgroundResource(R.drawable.btn_zoom_in);
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):			btnZoomout.setBackgroundResource(R.drawable.ic_zoomout);
+cyx_UserCollectMapActivity_gaode.java (src\com\amap):			btnZoomout.setBackgroundResource(R.drawable.btn_zoom_out);
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/lukuang" />
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/ic_location" />
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_zoom_in" />
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_zoom_out" />
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_collect_bg"
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                    android:src="@drawable/cyx_ic_collect" />
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                android:background="@drawable/btn_nav_bg"
+Cyx_user_collect_gaode_map_layout.xml (res\layout):                    android:src="@drawable/ic_fold_line" />
+DeletableEditText.java (src\com\xgr\wonderful\view):import android.graphics.drawable.Drawable;
+Dialog_usericon.xml (res\layout):        android:drawableTop="@drawable/bg_get_pic_big"
+Dialog_usericon.xml (res\layout):        android:drawableTop="@drawable/bg_take_pic_big"
+Drawer_list_item.xml (res\layout):    android:background="@drawable/activated_background_holo_light"
+EditActivity.java (src\com\xgr\wonderful\ui):import android.graphics.drawable.BitmapDrawable;
+EditActivity.java (src\com\xgr\wonderful\ui):				return R.drawable.logo;
+EditActivity.java (src\com\xgr\wonderful\ui):				return R.drawable.btn_comment_publish;
+EditActivity.java (src\com\xgr\wonderful\ui):		deleteButton.setBackground(R.drawable.search_clear_btn_down);
+FavActivity.java (src\com\xgr\wonderful\ui):				return R.drawable.logo;
+Female_btn_selector.xml (res\drawable):    <item android:state_checked="true" android:drawable="@drawable/icon_female_normal" />
+Female_btn_selector.xml (res\drawable):    <item android:drawable="@drawable/icon_female_checked" />
+FlipLoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.Drawable;
+FlipLoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):			 * square with each side the size of the largest drawable dimension.
+FlipLoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):		return R.drawable.default_ptr_flip;
+Fragment_navi.xml (res\layout):    android:background="@drawable/bg_navi" >
+Fragment_navi.xml (res\layout):            android:drawableLeft="@drawable/ic_navi_home"
+Fragment_navi.xml (res\layout):            android:drawableLeft="@drawable/ic_navi_settings"
+Fragment_navi.xml (res\layout):            android:drawableLeft="@drawable/ic_navi_feedback"
+Fragment_navi.xml (res\layout):            android:drawableLeft="@drawable/ic_navi_intro"
+Fragment_navi.xml (res\layout):            android:drawableLeft="@drawable/ic_navi_about"
+Fragment_personal.xml (res\layout):            android:src="@drawable/user_icon_default"
+Fragment_personal.xml (res\layout):            android:src="@drawable/bg_go_settings"
+Fragment_personal_edit.xml (res\layout):            android:src="@drawable/ic_launcher" 
+Fragment_personal_edit.xml (res\layout):            android:src="@drawable/icon_back_blue" />
+Fragment_personal_edit.xml (res\layout):                android:background="@drawable/male_btn_selector"
+Fragment_personal_edit.xml (res\layout):                android:background="@drawable/female_btn_selector"
+Fragment_personal_edit.xml (res\layout):            android:src="@drawable/icon_back_blue" />
+Fragment_personal_edit.xml (res\layout):	            android:background="@drawable/selector_edittext"
+Fragment_personal_edit.xml (res\layout):         android:background="@drawable/actionbar_btn"/>
+Fragment_settings.xml (res\layout):        android:background="@drawable/selector_settings_item_down"
+Fragment_settings.xml (res\layout):            android:src="@drawable/user_icon_default_main"
+Fragment_settings.xml (res\layout):	    android:background="@drawable/selector_settings_item_down"
+Fragment_settings.xml (res\layout):            android:button="@drawable/selector_sex_choice"
+Fragment_settings.xml (res\layout):	    android:background="@drawable/selector_settings_item_down"
+Fragment_settings.xml (res\layout):            android:button="@drawable/selector_push_switch"
+Fragment_settings.xml (res\layout):        android:background="@drawable/selector_settings_item_down"
+Fragment_settings.xml (res\layout):        android:background="@drawable/selector_settings_item_down"
+Fragment_settings.xml (res\layout):        android:background="@drawable/selector_logout"
+GuideActivity.java (src\com\xgr\wonderful\ui):				imageViews[i].setBackgroundResource(R.drawable.point_select);
+GuideActivity.java (src\com\xgr\wonderful\ui):				imageViews[i].setBackgroundResource(R.drawable.point_normal);
+GuideActivity.java (src\com\xgr\wonderful\ui):			imageViews[i].setBackgroundResource(R.drawable.point_normal);
+GuideActivity.java (src\com\xgr\wonderful\ui):		imageViews[arg0].setBackgroundResource(R.drawable.point_select);
+Help_one.xml (res\layout):        android:background="@drawable/help02" />
+Help_three.xml (res\layout):        android:background="@drawable/help03"
+Help_two.xml (res\layout):        android:background="@drawable/help01" />
+Home_tab_add_background.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_button_highlighted" android:state_pressed="true"/>
+Home_tab_add_background.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_button_highlighted" android:state_checked="true"/>
+Home_tab_add_background.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_button_highlighted" android:state_selected="true"/>
+Home_tab_add_background.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_button" android:state_checked="false"/>
+Home_tab_add_background.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_button"/>
+Home_tab_add_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_icon_add_highlighted" android:state_pressed="true"/>
+Home_tab_add_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_icon_add_highlighted" android:state_checked="true"/>
+Home_tab_add_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_icon_add_highlighted" android:state_selected="true"/>
+Home_tab_add_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_icon_add" android:state_checked="false"/>
+Home_tab_add_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_compose_icon_add"/>
+Home_tab_background_selector.xml (res\drawable):    <item android:drawable="@drawable/main_navigation_highlight_bg" android:state_pressed="true"/>
+Home_tab_background_selector.xml (res\drawable):    <item android:drawable="@drawable/main_navigation_highlight_bg" android:state_checked="true"/>
+Home_tab_background_selector.xml (res\drawable):    <item android:drawable="@drawable/main_navigation_highlight_bg" android:state_selected="true"/>
+Home_tab_background_selector.xml (res\drawable):    <item android:drawable="@drawable/main_navigation_background" android:state_checked="false"/>
+Home_tab_background_selector.xml (res\drawable):    <item android:drawable="@drawable/main_navigation_background"/>
+Home_tab_find_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_discover_highlighted" android:state_pressed="true"/>
+Home_tab_find_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_discover_selected" android:state_checked="true"/>
+Home_tab_find_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_discover_selected" android:state_selected="true"/>
+Home_tab_find_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_discover" android:state_checked="false"/>
+Home_tab_find_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_discover"/>
+Home_tab_main_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_home_highlighted" android:state_pressed="true"/>
+Home_tab_main_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_home_selected" android:state_checked="true"/>
+Home_tab_main_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_home_selected" android:state_selected="true"/>
+Home_tab_main_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_home" android:state_checked="false"/>
+Home_tab_main_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_home"/>
+Home_tab_message_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_message_center_highlighted" android:state_pressed="true"/>
+Home_tab_message_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_message_center_selected" android:state_checked="true"/>
+Home_tab_message_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_message_center_selected" android:state_selected="true"/>
+Home_tab_message_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_message_center" android:state_checked="false"/>
+Home_tab_message_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_message_center"/>
+Home_tab_personal_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_profile_highlighted" android:state_pressed="true"/>
+Home_tab_personal_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_profile_selected" android:state_checked="true"/>
+Home_tab_personal_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_profile_selected" android:state_selected="true"/>
+Home_tab_personal_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_profile" android:state_checked="false"/>
+Home_tab_personal_selector.xml (res\drawable):    <item android:drawable="@drawable/tabbar_profile"/>
+ILoadingLayout.java (src\com\handmark\pulltorefresh\library):import android.graphics.drawable.Drawable;
+ILoadingLayout.java (src\com\handmark\pulltorefresh\library):	 * Set the drawable used in the loading layout. This is the same as calling
+ILoadingLayout.java (src\com\handmark\pulltorefresh\library):	 * <code>setLoadingDrawable(drawable, Mode.BOTH)</code>
+ILoadingLayout.java (src\com\handmark\pulltorefresh\library):	 * @param drawable - Drawable to display
+ILoadingLayout.java (src\com\handmark\pulltorefresh\library):	public void setLoadingDrawable(Drawable drawable);
+IndicatorLayout.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.Drawable;
+IndicatorLayout.java (src\com\handmark\pulltorefresh\library\internal):		Drawable arrowD = getResources().getDrawable(R.drawable.indicator_arrow);
+IndicatorLayout.java (src\com\handmark\pulltorefresh\library\internal):				setBackgroundResource(R.drawable.indicator_bg_bottom);
+IndicatorLayout.java (src\com\handmark\pulltorefresh\library\internal):				setBackgroundResource(R.drawable.indicator_bg_top);
+List_header_navigation.xml (res\layout):        android:src="@drawable/user_icon_default"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_01"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_02"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_03"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_04"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_05"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_06"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_07"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_08"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_09"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_10"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_11"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_12"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_13"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_14"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_15"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_16"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_17"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_18"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_19"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_20"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_21"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_22"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_23"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_24"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_25"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_26"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_27"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_28"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_29"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_30"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_31"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_32"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_33"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_34"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_35"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_36"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_37"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_38"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_39"
+Loading.xml (res\anim):        android:drawable="@drawable/spinner_40"
+LoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.AnimationDrawable;
+LoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.Drawable;
+LoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):		// Try and get defined drawable from Attrs
+LoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):		// drawable attr above
+LoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):		// If we don't have a user defined drawable, load the default
+LoadingLayoutProxy.java (src\com\handmark\pulltorefresh\library):import android.graphics.drawable.Drawable;
+LoadingLayoutProxy.java (src\com\handmark\pulltorefresh\library):	public void setLoadingDrawable(Drawable drawable) {
+LoadingLayoutProxy.java (src\com\handmark\pulltorefresh\library):			layout.setLoadingDrawable(drawable);
+Male_btn_selector.xml (res\drawable):    <item android:state_checked="true" android:drawable="@drawable/icon_male_normal" />
+Male_btn_selector.xml (res\drawable):    <item android:drawable="@drawable/icon_male_checked" />
+MenuInterface.java (src\com\jeremyfeinstein\slidingmenu\lib):import android.graphics.drawable.Drawable;
+MResource.java (src\com\xgr\wonderful\utils):	 * 获取R.drawable.XXX 的id
+MResource.java (src\com\xgr\wonderful\utils):	 return getIdByName(context, "drawable", name);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):					imgNorth.setImageResource(R.drawable.north_car);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):					imgNorth.setImageResource(R.drawable.north_map);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		img.setBackgroundResource(R.drawable.white);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		img.setImageResource(R.drawable.zidong);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgAutomate.setBackgroundResource(R.drawable.whites);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgAutomate.setImageResource(R.drawable.zidong);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgNeight.setBackgroundResource(R.drawable.whites);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgNeight.setImageResource(R.drawable.night);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgSun.setBackgroundResource(R.drawable.whites);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgSun.setImageResource(R.drawable.sun);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgClose.setBackgroundResource(R.drawable.whites);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):		imgClose.setImageResource(R.drawable.closes);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):						img.setImageResource(R.drawable.zidong);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):						img.setImageResource(R.drawable.night);
+NaviCustomActivity.java (src\com\cwits\cyx_drive_sdk\navi):						img.setImageResource(R.drawable.sun);
+NavigationAdapter.java (src\com\xgr\wonderful\adapter):	private int[] icons = {R.drawable.ic_navi_settings,R.drawable.ic_navi_feedback,R.drawable.ic_navi_intro,R.drawable.ic_navi_about};
+NaviRouteActivity.java (src\com\cwits\cyx_drive_sdk\navi):		mThemeText.setDropDownBackgroundResource(R.drawable.whitedownborder);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):			roadreport.setImageResource(R.drawable.open);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):			roadreport.setImageResource(R.drawable.close);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):			eleeye.setImageResource(R.drawable.open);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):			eleeye.setImageResource(R.drawable.close);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):					roadreport.setImageResource(R.drawable.close);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):					roadreport.setImageResource(R.drawable.open);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):					eleeye.setImageResource(R.drawable.close);
+NaviSettingsActivity.java (src\com\cwits\cyx_drive_sdk\navi):					eleeye.setImageResource(R.drawable.open);
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):		mStartPointText.setDropDownBackgroundResource(R.drawable.whitedownborder);
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):		mStrategyText.setDropDownBackgroundResource( R.drawable.whitedownborder);
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):								getResources(),  R.drawable.start))));
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):								getResources(),  R.drawable.way))));
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):								getResources(),  R.drawable.end))));
+NaviStartActivity.java (src\com\cwits\cyx_drive_sdk\navi):						.decodeResource(getResources(),  R.drawable.location_marker))));
+Navi_item.xml (res\layout):    android:background="@drawable/selector_navi_item"
+PersonalEditFragment.java (src\com\xgr\wonderful\ui):import android.graphics.drawable.BitmapDrawable;
+PersonalEditFragment.java (src\com\xgr\wonderful\ui):					MyApplication.getInstance().getOptions(R.drawable.ic_launcher),
+PersonalFragment.java (src\com\xgr\wonderful\ui):					MyApplication.getInstance().getOptions(R.drawable.content_image_default),
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):				MyApplication.getInstance().getOptions(R.drawable.user_icon_default_main),
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):					MyApplication.getInstance().getOptions(R.drawable.bg_pic_loading),
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):			viewHolder.favMark.setImageResource(R.drawable.ic_action_fav_choose);
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):			viewHolder.favMark.setImageResource(R.drawable.ic_action_fav_normal);
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_choose);
+PersonCenterContentAdapter.java (src\com\xgr\wonderful\adapter):				((ImageView)v).setImageResource(R.drawable.ic_action_fav_normal);
+Poi_list_item.xml (res\layout):                android:src="@drawable/ic_place_icon" />
+Poi_list_item.xml (res\layout):            android:background="@drawable/btn_white_normal"
+Poi_list_item.xml (res\layout):                android:src="@drawable/ic_fold_line" />
+Poi_list_item.xml (res\layout):            android:src="@drawable/cyx_split_line" />
+Progress_loading.xml (res\anim):    <item android:drawable="@drawable/progress_one" android:duration="200"></item>
+Progress_loading.xml (res\anim):<item android:drawable="@drawable/progress_two" android:duration="200"></item>
+Progress_loading.xml (res\anim):<item android:drawable="@drawable/progress_three" android:duration="200"></item>
+Progress_loading.xml (res\anim):<item android:drawable="@drawable/progress_four" android:duration="200"></item>
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):import android.graphics.drawable.Drawable;
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):	public void setLoadingDrawable(Drawable drawable) {
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):		getLoadingLayoutProxy().setLoadingDrawable(drawable);
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):	public void setLoadingDrawable(Drawable drawable, Mode mode) {
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):				drawable);
+PullToRefreshBase.java (src\com\handmark\pulltorefresh\library):		 * drawable, which is automatically rotated and used as a Progress Bar.
+R.java (gen\com\xgr\wonderful):        /**  A drawable to use as the background of the Header and Footer Loading Views 
+R.java (gen\com\xgr\wonderful):        /**  A drawable to use as the background of the Refreshable View 
+R.java (gen\com\xgr\wonderful):    public static final class drawable {
+R.java (gen\com\xgr\wonderful):           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.xgr.wonderful:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
+R.java (gen\com\xgr\wonderful):           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.xgr.wonderful:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
+R.java (gen\com\xgr\wonderful):           A drawable to use as the background of the Header and Footer Loading Views 
+R.java (gen\com\xgr\wonderful):           A drawable to use as the background of the Refreshable View 
+RegisterAndLoginActivity.java (src\com\xgr\wonderful\ui):				return R.drawable.logo;
+RegisterAndLoginActivity.java (src\com\xgr\wonderful\ui):			loginTitle.setBackgroundResource(R.drawable.bg_login_tab);
+RegisterAndLoginActivity.java (src\com\xgr\wonderful\ui):			registerTitle.setBackgroundResource(R.drawable.bg_login_tab);
+RegisterAndLoginActivity.java (src\com\xgr\wonderful\ui):			resetPassword.setBackgroundResource(R.drawable.bg_login_tab);
+ResideLayout.java (src\com\xgr\wonderful\ui):import android.graphics.drawable.Drawable;
+ResideLayout.java (src\com\xgr\wonderful\ui):        // here. On older devices, check the view's background drawable directly as a fallback.
+RotateLoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.Drawable;
+RotateLoadingLayout.java (src\com\handmark\pulltorefresh\library\internal):		return R.drawable.default_ptr_rotate;
+Selector_edittext.xml (res\drawable):    <item android:state_window_focused="false" android:drawable="@drawable/edittext_normal"></item>
+Selector_edittext.xml (res\drawable):    <item android:state_focused="true" android:drawable="@drawable/edittext_focus"></item>
+Selector_edittext_account.xml (res\drawable):    <item android:state_window_focused="false" android:drawable="@drawable/bg_account_normal"></item>
+Selector_edittext_account.xml (res\drawable):    <item android:state_focused="true" android:drawable="@drawable/bg_account_focus"></item>
+Selector_edit_pic.xml (res\drawable):    <item android:drawable="@drawable/bg_edit_pic_pressed" android:state_pressed="true"></item>
+Selector_edit_pic.xml (res\drawable):	<item android:drawable="@drawable/bg_edit_pic_normal"></item>
+Selector_logout.xml (res\drawable):    <item android:drawable="@drawable/bg_logout_pressed" android:state_pressed="true"></item>
+Selector_logout.xml (res\drawable):	<item android:drawable="@drawable/bg_logout_normal"></item>
+Selector_navi_item.xml (res\drawable):    <item android:drawable="@drawable/bg_ic_navi_pressed" android:state_pressed="true"></item>
+Selector_navi_item.xml (res\drawable):	<item android:drawable="@drawable/bg_ic_navi_normal"></item>
+Selector_push_switch.xml (res\drawable):    <item android:drawable="@drawable/ic_push_on" android:state_checked="true"></item>
+Selector_push_switch.xml (res\drawable):	<item android:drawable="@drawable/ic_push_off"/>
+Selector_settings_item_down.xml (res\drawable):    <item android:drawable="@drawable/bg_settings_item_down_pressed" android:state_pressed="true"></item>
+Selector_settings_item_down.xml (res\drawable):	<item android:drawable="@drawable/bg_settings_item_down_normal"></item>
+Selector_sex_choice.xml (res\drawable):    <item android:drawable="@drawable/ic_sex_female" android:state_checked="true"></item>
+Selector_sex_choice.xml (res\drawable):	<item android:drawable="@drawable/ic_sex_male"/>
+SettingsFragment.java (src\com\xgr\wonderful\ui):						MyApplication.getInstance().getOptions(R.drawable.user_icon_default_main),
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):import android.graphics.drawable.Drawable;
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the shadow drawable.
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * @param resId the resource ID of the new shadow drawable
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the shadow drawable.
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * @param d the new shadow drawable
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the secondary (right) shadow drawable.
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * @param resId the resource ID of the new shadow drawable
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the secondary (right) shadow drawable.
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * @param d the new shadow drawable
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the selector drawable.
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * @param res a resource ID for the selector drawable
+SlidingMenu.java (src\com\jeremyfeinstein\slidingmenu\lib):	 * Sets the selector drawable.
+SmoothProgressDrawable.java (src\fr\castorflex\android\smoothprogressbar):import android.graphics.drawable.Animatable;
+SmoothProgressDrawable.java (src\fr\castorflex\android\smoothprogressbar):import android.graphics.drawable.Drawable;
+Spinner.xml (res\drawable):                android:src="@drawable/umeng_xp_loading" />
+Styles.xml (res\values):        <item name="android:background">@drawable/actionbar_background</item>
+Styles.xml (res\values):        <item name="android:indeterminateDrawable">@drawable/spinner</item>
+Umeng_common_download_notification.xml (res\layout):            android:src="@android:drawable/stat_sys_download" />
+Umeng_common_download_notification.xml (res\layout):                android:background="@drawable/umeng_common_gradient_orange"
+Umeng_common_download_notification.xml (res\layout):                android:background="@drawable/umeng_common_gradient_red"
+Umeng_common_download_notification.xml (res\layout-v9):            android:src="@android:drawable/stat_sys_download" />
+Umeng_common_download_notification.xml (res\layout-v9):                android:background="@drawable/umeng_common_gradient_orange"
+Umeng_common_download_notification.xml (res\layout-v9):                android:background="@drawable/umeng_common_gradient_red"
+Umeng_fb_activity_contact.xml (res\layout):            android:src="@drawable/umeng_fb_back_selector" />
+Umeng_fb_activity_contact.xml (res\layout):            android:src="@drawable/umeng_fb_tick_selector" />
+Umeng_fb_activity_contact.xml (res\layout):        android:background="@drawable/umeng_fb_conversation_bg" >
+Umeng_fb_activity_conversation.xml (res\layout):            android:background="@drawable/selector_logout"
+Umeng_fb_activity_conversation.xml (res\layout):            android:drawableLeft="@drawable/back_indicator"
+Umeng_fb_activity_conversation.xml (res\layout):        android:background="@drawable/umeng_fb_conversation_bg" 
+Umeng_fb_activity_conversation.xml (res\layout):            android:src="@drawable/umeng_fb_arrow_right" />
+Umeng_fb_activity_conversation.xml (res\layout):        android:background="@drawable/umeng_fb_conversation_bg" >
+Umeng_fb_activity_conversation.xml (res\layout):            android:background="@drawable/bg_comment_comment"
+Umeng_fb_activity_conversation.xml (res\layout):                android:background="@drawable/selector_logout"
+Umeng_fb_activity_conversation.xml (res\layout):                android:background="@drawable/selector_edittext_account"
+Umeng_fb_back_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_back_selected" android:state_focused="true"/>
+Umeng_fb_back_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_back_selected" android:state_selected="true"/>
+Umeng_fb_back_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_back_selected" android:state_pressed="true"/>
+Umeng_fb_back_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_back_normal"/>
+Umeng_fb_btn_bg_selector.xml (res\drawable):    <item android:drawable="@color/umeng_fb_color_btn_pressed" android:state_focused="true"/>
+Umeng_fb_btn_bg_selector.xml (res\drawable):    <item android:drawable="@color/umeng_fb_color_btn_pressed" android:state_selected="true"/>
+Umeng_fb_btn_bg_selector.xml (res\drawable):    <item android:drawable="@color/umeng_fb_color_btn_pressed" android:state_pressed="true"/>
+Umeng_fb_btn_bg_selector.xml (res\drawable):    <item android:drawable="@color/umeng_fb_color_btn_normal"/>
+Umeng_fb_list_header.xml (res\layout):            android:src="@drawable/umeng_fb_logo"
+Umeng_fb_list_item.xml (res\layout):            android:background="@drawable/umeng_fb_reply_right_bg"
+Umeng_fb_list_item_selector.xml (res\drawable):		android:drawable="@drawable/umeng_fb_list_item_pressed" />
+Umeng_fb_list_item_selector.xml (res\drawable):		android:drawable="@drawable/umeng_fb_list_item" />
+Umeng_fb_see_list_selector.xml (res\drawable):	<item android:state_pressed="true" android:drawable="@drawable/umeng_fb_see_list_pressed" />
+Umeng_fb_see_list_selector.xml (res\drawable):	<item android:state_pressed="false" android:drawable="@drawable/umeng_fb_see_list_normal" />
+Umeng_fb_submit_selector.xml (res\drawable):	<item android:state_pressed="true" android:drawable="@drawable/umeng_fb_gradient_orange" />
+Umeng_fb_submit_selector.xml (res\drawable):	<item android:state_pressed="false" android:drawable="@drawable/umeng_fb_gradient_green" />
+Umeng_fb_tick_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_tick_selected" android:state_focused="true"/>
+Umeng_fb_tick_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_tick_selected" android:state_selected="true"/>
+Umeng_fb_tick_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_tick_selected" android:state_pressed="true"/>
+Umeng_fb_tick_selector.xml (res\drawable):    <item android:drawable="@drawable/umeng_fb_tick_normal"/>
+Umeng_fb_write_selector.xml (res\drawable):	<item android:state_pressed="true" android:drawable="@drawable/umeng_fb_write_pressed" />
+Umeng_fb_write_selector.xml (res\drawable):	<item android:state_pressed="false" android:drawable="@drawable/umeng_fb_write_normal" />
+Umeng_update_button_cancel_bg_selector.xml (res\drawable):        android:drawable="@drawable/umeng_update_button_cancel_bg_normal" />
+Umeng_update_button_cancel_bg_selector.xml (res\drawable):        android:drawable="@drawable/umeng_update_button_cancel_bg_tap" />
+Umeng_update_button_cancel_bg_selector.xml (res\drawable):	    android:drawable="@drawable/umeng_update_button_cancel_bg_focused" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_on_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_off_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_on_pressed_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_off_pressed_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_on_focused_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_off_focused_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_off_holo_light" />
+Umeng_update_button_check_selector.xml (res\drawable):          android:drawable="@drawable/umeng_update_btn_check_on_holo_light" />
+Umeng_update_button_close_bg_selector.xml (res\drawable):		  android:drawable="@drawable/umeng_update_close_bg_normal" />
+Umeng_update_button_close_bg_selector.xml (res\drawable):		  android:drawable="@drawable/umeng_update_close_bg_tap" />
+Umeng_update_button_close_bg_selector.xml (res\drawable):		  android:drawable="@drawable/umeng_update_close_bg_tap" />
+Umeng_update_button_ok_bg_selector.xml (res\drawable):        android:drawable="@drawable/umeng_update_button_ok_bg_normal" />
+Umeng_update_button_ok_bg_selector.xml (res\drawable):        android:drawable="@drawable/umeng_update_button_ok_bg_tap" />
+Umeng_update_button_ok_bg_selector.xml (res\drawable):        android:drawable="@drawable/umeng_update_button_ok_bg_focused" />
+Umeng_update_dialog.xml (res\layout):        android:background="@drawable/umeng_update_dialog_bg"
+Umeng_update_dialog.xml (res\layout):                android:src="@drawable/umeng_update_wifi_disable" />
+Umeng_update_dialog.xml (res\layout):				android:background="@drawable/umeng_update_button_close_bg_selector"/>
+Umeng_update_dialog.xml (res\layout):	        android:button="@drawable/umeng_update_button_check_selector"
+Umeng_update_dialog.xml (res\layout):                android:background="@drawable/selector_logout"
+Umeng_update_dialog.xml (res\layout):                android:background="@drawable/selector_edit_pic"
+Umeng_update_dialog.xml (res\layout):                android:background="@drawable/umeng_update_button_cancel_bg_selector"
+ViewCompat.java (src\com\handmark\pulltorefresh\library\internal):import android.graphics.drawable.Drawable;
+What_new_one.xml (res\layout):        android:background="@drawable/guide1" />
+What_new_three.xml (res\layout):        android:background="@drawable/guide3"
+What_new_three.xml (res\layout):	    android:background="@drawable/btn_guide_go"
+What_new_two.xml (res\layout):        android:background="@drawable/guide2" />

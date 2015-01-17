@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bt_bg_normal_white" 
+    android:orientation="vertical"
+   >
+    
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_gravity="center"
+         >
+     <TextView
+        android:id="@+id/cyx_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ensure_phone_no"
+        android:gravity="center"
+        android:textColor="@color/gray" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/cyx_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/gray" />
+    <TextView
+        android:id="@+id/cyx_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/green2" />
+    
+    <ImageView
+        android:id="@+id/across_line"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:contentDescription="@string/img"
+        android:background="@color/light_gray2" >
+    </ImageView>
+    <LinearLayout 
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        
+        android:id="@+id/cyx_dialog_btn_layout">
+        <TextView 
+            android:id="@+id/cyx_dialog_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:text="@string/cancel"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+             android:visibility="gone"
+             android:layout_marginBottom="5dp"
+            android:textColor="@color/regist_dialog_text_color"/>
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/light_gray2"
+            android:id="@+id/cyx_dialog_line"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img"
+            android:visibility="gone"/>
+        <TextView 
+            android:id="@+id/cyx_dialog_ok"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:text="@string/ok"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/regist_dialog_text_color"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

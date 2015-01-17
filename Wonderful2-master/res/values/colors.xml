@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#427fed</color>
+    <color name="gplus_color_3">#b23424</color>
+    <color name="gplus_color_4">#f4b400</color>
+    <color name="theme_color">#D95555</color>
+    <color name="second_color">#888888</color>
+
+    <drawable name="bg_ic_navi_normal">#FFFFFF</drawable>
+    <drawable name="bg_ic_navi_pressed">#EEEEEE</drawable>
+
+    <color name="gray">#414141</color>
+    <color name="green2">#34b67a</color>
+    <color name="light_gray2">#bbb8b7</color>
+    <color name="light_gray">#B8B8B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF4500</color>
+    <color name="dark_black">#3e3e3e</color>
+    <color name="light_black">#706e6e</color>
+    <color name="deep_gray">#767372</color>
+    <color name="black">#000000</color>
+    <color name="title_backg">#43AD7D</color>
+        <color name="regist_bg_color">#F0F0F0</color>
+     <color name="cut_off_line">#E8E8E8</color>
+</resources>

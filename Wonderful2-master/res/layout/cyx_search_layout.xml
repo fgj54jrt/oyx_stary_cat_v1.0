@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/cyx_main_search" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/List_search_now"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.9"
+            android:background="@drawable/cyx_searchlist_bg"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/light_gray2"
+            android:dividerHeight="1dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/search_history_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/cyx_searchlist_bg"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ListView
+                android:id="@+id/List_search_history"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.9"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/light_gray2"
+                android:dividerHeight="1dp" />
+
+            <TextView
+                android:id="@+id/tv_clearSearchHitory"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_gravity="bottom|right"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.1"
+                android:text="@string/clear_history"
+                android:textColor="@color/clear_history_tv_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

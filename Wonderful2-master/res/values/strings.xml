@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stray cat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="actionbar_activity_not_found">Failed to open intent&#8230;</string>
+    <string name="application_title">Stray cat</string>
+    <string name="settings_title">应用设置</string>
+    <string name="about_title">关于</string>
+
+    <string-array name="navigations">
+        <item>设置</item>
+        <item>反馈</item>
+        <item>推荐</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="interpolators">
+        <item>Accelerate</item>
+        <item>Linear</item>
+        <item>AccelerateDecelerate</item>
+        <item>Decelerate</item>
+    </string-array>
+    <!-- CommentActivity -->
+    <string name="dialog_tips">大家好，\n\t\t\t\t\t该应用源码中不提供应用key,如果你需要查看该源码效果，请自行到官网申请key。\n\t\t\t\t\t申请成功之后在应用程序启动页(SplashActivity)的onCreate方法中完成初始化操作!</string>
+    <string name="oyx_comment">发表评论</string>
+    <string name="oyx_comment_already_get_all">已加载完所有评论~</string>
+    <string name="oyx_comment_already_no">暂无更多评论~</string>
+    <string name="oyx_comment_has_no_network">获取评论失败。请检查网络~</string>
+    <string name="oyx_comment_no_network">评论失败。请检查网络~</string>
+    <string name="oyx_comment_cant_be_null">评论内容不能为空。</string>
+    <string name="oyx_comment_please_login">发表评论前请先登录。</string>
+    <string name="oyx_comment_success">评论成功。</string>
+    <string name="oyx_please_login">请先登录。</string>
+    <string name="oyx_comment_refresh_success">更新评论成功。</string>
+    <string name="oyx_comment_refresh_fail">更新评论失败。</string>
+    <string name="oyx_comment_collect_success">收藏成功。</string>
+    <string name="oyx_comment_collect_cancle">取消收藏。</string>
+    <string name="oyx_comment_collect_fail">收藏失败。请检查网络~</string>
+    <string name="oyx_comment_befor_collect_please_login">收藏前请先登录。</string>
+    <string name="oyx_comment_getcollect_fail">获取收藏失败。请检查网络~</string>
+    <string name="oyx_comment_befor_get_collect_please_login">获取收藏前请先登录。</string>
+    <string name="oyx_comment_already_praise">您已经赞过啦</string>
+    <string name="oyx_comment_praise_success">点赞成功~</string>
+    <string name="oyx_comment_tread_success">点踩成功~</string>
+    <string name="oyx_comment_beautiful">这里好多美丽的风景</string>
+    <string name="oyx_comment_scenery">来领略最美的风景吧</string>
+
+    <!-- EditActivity -->
+    <string name="oyx_edit_publication">发表作品</string>
+    <string name="oyx_edit_cant_be_null">内容不能为空</string>
+    <string name="oyx_edit_commit_document_success">上传文件成功。</string>
+    <string name="oyx_edit_commit_document_fail">上传文件失败。</string>
+    <string name="oyx_edit_commit_success">发表成功！</string>
+    <string name="oyx_edit_commit_fail">发表失败！yg</string>
+    <string name="oyx_edit_sign">编辑签名</string>
+    <string name="oyx_edit_info_success">更改信息成功。</string>
+    <string name="oyx_edit_info_fail">更改信息失败。请检查网络</string>
+    <string name="oyx_edit_please_input">请先输入。。。</string>
+
+    <!-- MainActivity -->
+    <string name="oyx_main_notify">提示</string>
+    <string name="oyx_main_confirim">确定</string>
+    <string name="oyx_main_cancle">取消</string>
+    <string name="oyx_main_exit">再按一次退出程序</string>
+
+    <!-- PersonalActivity -->
+    <string name="oyx_personal_center">个人中心</string>
+    <string name="oyx_personal_center_edit">修改个人信息</string>
+    <string name="oyx_personal_refresh_success">更新信息成功。</string>
+    <string name="oyx_personal_refresh_fail">更新信息失败。请检查网络~</string>
+    <string name="oyx_personal_reported">我发表过的</string>
+    <string name="oyx_personal_she_reported">她发表过的</string>
+    <string name="oyx_personal_he_reported">他发表过的</string>
+    <string name="oyx_personal_has_get_all_data">已加载完所有数据~</string>
+    <string name="oyx_personal_donot_have_more">暂无更多数据~</string>
+
+    <!-- RegisterAndLoginActivity -->
+    <string name="oyx_manage_account">账号管理</string>
+    <string name="oyx_please_enter_name">请输入用户名</string>
+    <string name="oyx_please_enter_password">请输入密码</string>
+    <string name="oyx_please_enter_email">请输入邮箱地址</string>
+    <string name="oyx_email_is_wrong">邮箱格式不正确</string>
+    <string name="oyx_login">登录</string>
+    <string name="oyx_register">注册</string>
+    <string name="oyx_find_password">找回密码</string>
+    <string name="oyx_login_success">登录成功。</string>
+    <string name="oyx_login_fail">登录失败。请确认网络连接后再重试。</string>
+    <string name="oyx_register_success">注册成功</string>
+    <string name="oyx_register_fail">注册失败。请确认网络连接后再重试。</string>
+    <string name="oyx_find_password_in_email">请到邮箱修改密码后再登录。</string>
+    <string name="oyx_find_password_error">重置密码失败。请确认网络连接后再重试。</string>
+    
+    <!-- SettingsFragment -->
+    <string name="oyx_logout">退出登录</string>
+    <string name="oyx_logout_success">登出成功。</string>
+    <string name="oyx_checking">正在检查。。。</string>
+    <string name="oyx_no_update">没有更新</string>
+    <string name="oyx_no_wifi">没有wifi连接， 只在wifi下更新</string>
+    <string name="oyx_please_check_network">请检查网络</string>
+    <string name="oyx_clean_cash_over">清除缓存完毕</string>
+    <string name="oyx_change_image_success">更改头像成功。</string>
+    <string name="oyx_change_image_fail">更新头像失败。请检查网络~</string>
+    <string name="oyx_import_image_fail">上传头像失败。请检查网络~</string>
+    
+    <string name="oyx_home_tab_main">首页</string>
+    <string name="oyx_home_tab_message">消息</string>
+    <string name="oyx_home_tab_find">发现</string>
+    <string name="oyx_home_tab_me">我</string>
+    <string name="ensure_phone_no">确认手机号码</string>
+    <string name="img">this is Img contentDescription</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好</string>
+    <string name="latest_location">最后位置：</string>
+    <string name="time">时间：</string>
+    <string name="traffic_report_main">上报路况</string>
+    <string name="X">x</string>
+    <string name="stop_driving">结束驾驶</string>
+    <string name="search">搜索</string>
+    <string name="list">列表</string>
+    <string name="open_traffic">开启实时路况</string>
+    <string name="close_traffic">关闭实时路况</string>
+    <string name="clear_history">清空历史</string>
+    <string name="delete_bt">删除</string>
+    <string name="request_timeOut">请求超时...</string>
+    <string name="notice">提示</string>
+    <string name="search_ing">正在搜索 ，请稍后&#8230;</string>
+    <string name="no_search_result">抱歉，未找到结果！</string>
+   <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+       <string name="start_navi_navi">实时导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+    
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="daynightmode">"昼夜模式    "</string>                                                                                  
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路展示</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+     <string name="routeinfo_1">全程 </string>
+      <string name="routeinfo_2">公里/</string>
+       <string name="routeinfo_3">"分钟    收费"</string>
+       <string name="routeinfo_4">元</string>
+       <string name="routeinfo_default">--</string>
+    <string name="app_id">543b9629</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="open">打开</string>
+    <string name="yes">是</string>
+    <string name="okk">确认</string>
+    <string name="no">否</string>
+    <string name="close">关闭</string>
+    <string name="input_password">输入密码</string>
+    <string name="map">地图</string>
+    <string name="setting">设置</string>
+    <string name="road_report">路况播报</string>
+    <string name="ele_eye_report">电子眼播报</string>
+    <string name="collect_place">收藏此地址</string>
+    <string name="navi">到这儿去</string>
+    <string name="collect_place_point">收藏</string>
+    <string name="open_gps_notice">GPS未开启，现在去设置？</string>
+    <string name="cancel_collct">取消收藏</string>
+    <string name="cannot_navigation">抱歉，当前定位失败，无法完成导航功能！</string>
+</resources>
